@@ -1,0 +1,18 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "demouser"
+    },
+    "adminPassword": {
+      "value": "demo@pass123"
+    },
+    "dnsPrefix": {
+      "value": "GEN-UNIQUE"
+    },
+    "domainName": {
+      "value": "contoso.com"
+    }
+  }
+}
